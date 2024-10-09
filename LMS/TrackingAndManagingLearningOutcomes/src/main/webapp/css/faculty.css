@@ -1,0 +1,95 @@
+/* Main container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Content area */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form styling */
+#facultyForm {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Align label and input one below the other */
+#facultyForm label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#facultyForm input[type="text"],
+#facultyForm input[type="email"],
+#facultyForm input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#facultyForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#facultyForm button:hover {
+    background-color: #45a049;
+}
+
+/* Acknowledgment message */
+#ack {
+    margin-top: 15px;
+    font-size: 16px;
+}
